@@ -50,7 +50,7 @@ public class ControladorPersonaje : MonoBehaviour
 
     }
 
-
+    //gizmo
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
