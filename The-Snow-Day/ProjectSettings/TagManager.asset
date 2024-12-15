@@ -53,8 +53,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   - name: Foreground
     uniqueID: 1950422495
     locked: 0
@@ -70,11 +68,3 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-=======
-  m_RenderingLayers:
-  - Default
->>>>>>> Stashed changes
-=======
-  m_RenderingLayers:
-  - Default
->>>>>>> Stashed changes
