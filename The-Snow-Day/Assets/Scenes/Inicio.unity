@@ -129,8 +129,9 @@ GameObject:
   m_Component:
   - component: {fileID: 68118055}
   - component: {fileID: 68118054}
-  - component: {fileID: 68118057}
   - component: {fileID: 68118056}
+  - component: {fileID: 68118059}
+  - component: {fileID: 68118058}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -246,7 +247,26 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!50 &68118057
+--- !u!114 &68118058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68118053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bcfd7e6d9f8d974e99da8e3bca5a4e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 5
+  fuerzaSalto: 8
+  LongitudRaycast: 1.2
+  capaSuelo:
+    serializedVersion: 2
+    m_Bits: 8
+  rBjugador: {fileID: 0}
+--- !u!50 &68118059
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -329,6 +349,7 @@ GameObject:
   - component: {fileID: 904040245}
   - component: {fileID: 904040244}
   - component: {fileID: 904040243}
+  - component: {fileID: 904040246}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
