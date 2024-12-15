@@ -25,12 +25,12 @@ public class ControladorPersonaje : MonoBehaviour
         float velocidadX = Input.GetAxis("Horizontal")*Time.deltaTime*velocidad;
         //animator.SetFloat("movement", velocidadX * velocidad);
 
-        if (velocidadX > 0)
-        {
+        //if (velocidadX > 0)
+        //{
 
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        if (velocidadX < 0) { transform.localScale = new Vector3(1, 1, 1); }
+        //    transform.localScale = new Vector3(-1, 1, 1);
+        //}
+        //if (velocidadX < 0) { transform.localScale = new Vector3(1, 1, 1); }
 
         Vector3 position = transform.localPosition;
 
